@@ -19,6 +19,15 @@ void Framebuffer565::setPixel(int x, int y, color_t color) {
     _buf[x + y * _width] = color;
 }
 
+color_t Framebuffer565::colorAt(int x, int y) {
+    translateCoordinates(&x, &y);
+
+    if (x < 0 || x >= _width || y < 0 || y >= _height) {
+        return 0;
+    }
+    return _buf[x + y * _width];
+}
+
 void Framebuffer565::fillScreen(color_t color) {
     for (uint32_t x = 0; x < _width * _height; x++) {
         _buf[x] = color;
