@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core
 Provides: Framebuffer565.h
-Description: DisplayCore RGB565 Framebuffer
+Description: RGB565 Framebuffer
  The RGB565 Framebuffer is a virtual display / image driver
  which allows you to draw "off screen" then render the finished
  image to the screen at will.
