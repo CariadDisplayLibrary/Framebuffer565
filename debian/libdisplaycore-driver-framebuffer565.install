@@ -1,2 +1,3 @@
-Framebuffer565.cpp libraries/DisplayCore/Framebuffer565
-Framebuffer565.h libraries/DisplayCore/Framebuffer565
+library.json libraries/DisplayCore/Framebuffer565
+library.properties libraries/DisplayCore/Framebuffer565
+src libraries/DisplayCore/Framebuffer565
