@@ -1,0 +1,3 @@
+library.json libraries/Cariad/Framebuffer565
+library.properties libraries/Cariad/Framebuffer565
+src libraries/Cariad/Framebuffer565

@@ -1,16 +1,17 @@
-Source: libdisplaycore-driver-framebuffer565
+Source: libcariad-driver-framebuffer565
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-driver-framebuffer565
+Package: libcariad-driver-framebuffer565
+Replaces: libdisplaycore-driver-framebuffer565
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
 XBSC-Subsubgroup: Virtual
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: Framebuffer565.h
 Description: RGB565 Framebuffer
  The RGB565 Framebuffer is a virtual display / image driver
